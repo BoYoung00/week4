@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.head {
+    background-color: rgb(181, 231, 240);
+    display: flex;
+    width: 80%;
+    margin: auto;
+    color: rgb(252, 227, 227);
+    justify-content: center;
+    font-size: 20px;
+}
+
+.content {
+    display: block;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.name,
+.number,
+.age,
+.addr,
+.mbti {
+    border: 1px solid #c8ef6c;
+    margin-top: 15px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer {
+    width: 80%;
+    background-color: rgb(211, 238, 231);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-top: 15px;
+    color: #fff;
+    flex-direction: column;
+}
